@@ -11,6 +11,9 @@ connectDB();
 // Crear una app a partir de la clase express
 const app = express();
 
+// Parse de los elementos Json mediante express
+app.use(express.json());
+
 // Especificar el archivas de rutas campus.js
 const campus = require('./routes/campus');
 // const connectDB = require('./config/DB.JS');
