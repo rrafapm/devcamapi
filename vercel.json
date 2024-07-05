@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "sever.js",
+            "src": "server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {   
-            "src": "/api/v1/campus",
-            "dest": "server.js"
+            "src": "/api/v1/campus(.*)",
+            "dest": "routes/campus.js"
         }
     ]
 }
