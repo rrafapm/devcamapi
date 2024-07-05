@@ -9,7 +9,7 @@
     "routes": [
         {   
             "src": "/api/v1/campus(.*)",
-            "dest": "routes/campus.js"
+            "dest": "server.js"
         }
     ]
 }
