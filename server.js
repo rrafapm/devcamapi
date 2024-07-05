@@ -20,7 +20,7 @@ const campus = require('./routes/campus');
 // const alumnos = require('./routes/alumnos');
 
 // Montar(activar) rutas
-app.use('/api/v1/campus/', campus);
+app.use('/api/v1/campus', campus);
 // app.use('/api/v1/alumnos', alumnos);
 
 // Establecer el puerto en localhost
